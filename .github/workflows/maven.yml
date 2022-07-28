@@ -1,4 +1,4 @@
-name: Badge Workflow
+name: Badge Workflow_1
 
 on:
   release:
