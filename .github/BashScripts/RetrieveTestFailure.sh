@@ -6,7 +6,7 @@ then
   res=0
 
   for File in $Files
-  do
+  do 
       res=$((res + $(grep -o -w "Failures: [0-9]*" "$File" | cut -d' ' -f 2)))
   done
 
