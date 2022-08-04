@@ -19,7 +19,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Setup Maven Action
         uses: s4u/setup-maven-action@v1.2.1
         with:
